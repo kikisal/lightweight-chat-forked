@@ -13,6 +13,8 @@ import { app, server } from "./lib/socket.js";
 
 dotenv.config();
 
+console.log(process.env.PORT);
+
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
